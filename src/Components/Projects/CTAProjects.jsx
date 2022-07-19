@@ -4,10 +4,10 @@ const CTAProjects = ({githubLink, deployLink}) => {
 	return (
 		<div className="cta">
 			<a href={githubLink} className="btn">
-				Source Code
+				Github
 			</a>
 			<a href={deployLink} className="btn btn-primary">
-				Check out the project
+				Echar un vistazo
 			</a>
 		</div>
 	);

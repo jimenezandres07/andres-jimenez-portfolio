@@ -54,7 +54,7 @@ img {
 	.cards__container {
 		flex-direction: column;
 	}
-	img {
+	.car img {
 		height: 20vh;
 	}
 	.cta {
@@ -65,7 +65,19 @@ img {
 
 @media screen and (max-width: 600px) {
 	.cards__container {
-		flex-direction: column;
+		flex-direction: row;
+	}
+
+	.cards__container-top {
+		width: 40vw;
+	}
+
+	.project__card {
+		height: 50vh;
+		width: 40vw;
+		display: flex;
+		justify-content: center;
+		align-content: center;
 	}
 
 	img {

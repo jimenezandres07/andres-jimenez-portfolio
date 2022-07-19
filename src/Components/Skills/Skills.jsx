@@ -7,7 +7,7 @@ import "./skills.css";
 const Skills = () => {
 	return (
 		<section id="skills">
-			<h2>Skills</h2>
+			<h2>Tecnologías</h2>
 			<CardsContainer className="skills__container">
 				{technologiesArray.map((technologies) => (
 					<SkillsCard name={technologies.name} image={technologies.image} />

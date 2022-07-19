@@ -10,39 +10,43 @@ import Me2 from "../../assets/ANDY-ROJO-ADELANTE.jpg";
 const Hero = () => {
 	return (
 		<section id="about">
-			<h5>Get To Know</h5>
-			<h2>About Me</h2>
+			<h5>Una breve</h5>
+			<h2>Introducción</h2>
 			<AboutContainer className="container about__container">
 				<div className="about__me">
 					<div className="about__me-image">
-						<img src={Me2} alt="" />
+						<img src={Me2} alt="" className="about__me-img"/>
 					</div>
 				</div>
 				<div className="about__content">
 					<div className="about__cards">
 						<article className="about__card">
 							<FaAward className="about__icon" />
-							<h5>Experience</h5>
-							<small>3+ Years Working</small>
+							<h5>Experiencia</h5>
+							<small>+1 Años programando</small>
 						</article>
 						<article className="about__card">
 							<FiUsers className="about__icon" />
-							<h5>Clients</h5>
-							<small>200+ Worldwide</small>
+							<h5>Formación</h5>
+							<small>Henry Bootcamp</small>
 						</article>
 						<article className="about__card">
 							<VscFolderLibrary className="about__icon" />
-							<h5>Projects</h5>
-							<small>80+ Completed</small>
+							<h5>Proyectos</h5>
+							<small>2 Completados</small>
 						</article>
 					</div>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-						sapiente atque quibusdam iure dicta molestiae alias eveniet esse.
-						Neque repudiandae quaerat amet suscipit error aperiam deserunt
-						nesciunt aliquam soluta itaque.
+						Soy programador Full-Stack, actualmente resido en Cordoba, Argentina y estoy buscando mí
+						primer trabajo en el área de la tecnología. Cuento con formación en Henry Bootcamp dónde
+						conocí por primera vez lo que es programar y quedé fascinado con la programación.
+						Cuento con aptitudes para resolver problemas, trabajar bajo presión y responder a fechas
+						de entrega ajustadas. Si bien el trabajo de programador es un trabajo solitario, me gusta
+						trabajar en equipo y estoy abierto a recibir aportes de los integrantes de este.
+						Actualmente trabajo de manera colaborativa con una <a href="https://www.linkedin.com/in/claudia-vera-244585b/">traductora profesional</a>  en la traducción,
+						edición y corrección de textos relacionados al marketing digital, páginas web y tecnología.
 					</p>
-					<a href="#contact" className="btn btn-primary">Let's Talk</a>
+					<a href="#contact" className="btn btn-primary">Hablemos!</a>
 				</div>
 			</AboutContainer>
 		</section>

@@ -9,18 +9,18 @@ const Header = () => {
 	return (
 		<header>
 			<GlobalContainer className="container header__container">
-				<h5>Hi! I'm</h5>
+				<h5>Hola! Soy</h5>
 				<h1>Andres Jimenez</h1>
-				<h5 className="text-light">Full Stack Developer based in Argentina!</h5>
+				<h5 className="text-light">Full Stack Developer actualmente en Argentina!</h5>
 				<CTA />
 				<HeaderSocials />
 
 				<div className="me">
-					<img src={Me} alt="me" />
+					<img src={Me} alt="me" className="me__img"/>
 				</div>
 
 				<a href="#contact" className="scroll__down">
-					Scroll Down
+					Deslizar para abajo
 				</a>
 			</GlobalContainer>
 		</header>

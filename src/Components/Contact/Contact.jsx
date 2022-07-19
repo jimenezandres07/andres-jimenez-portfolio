@@ -31,8 +31,8 @@ const Contact = () => {
 
 	return (
 		<section id="contact">
-			<h5 className="color-light">Get in touch</h5>
-			<h2>Contact me</h2>
+			<h5 className="color-light">Ponte en contacto</h5>
+			<h2>Contactame</h2>
 
 			<GlobalContainer className="container contact__container">
 				<div className="contact__options">
@@ -41,7 +41,7 @@ const Contact = () => {
 						<h4>Email</h4>
 						<h5>jandres604@gmail.com</h5>
 						<a href="mailto:jandres604@gmail.com" target="_blank">
-							Send a message
+							Enviar un mail
 						</a>
 					</article>
 					<article className="contact__option">
@@ -52,7 +52,7 @@ const Contact = () => {
 							href="https://www.linkedin.com/in/andr%C3%A9s-jimenez-developer/"
 							target="_blank"
 						>
-							Find me on LinkedIn
+							Encuentrame en LinkedIn
 						</a>
 					</article>
 				</div>
@@ -73,7 +73,7 @@ const Contact = () => {
 						required
 					></textarea>
 					<button type="submit" className="btn btn-primary">
-						Send Message
+						Enviar
 					</button>
 				</form>
 			</GlobalContainer>

@@ -8,7 +8,7 @@
 
 	border: none;
 	padding: 1rem;
-	border-radius: 0.75em;
+	border-radius: 0.75rem;
 	background: var(--color-primary-variant);
 	transition: 0.3s;
 	color: black;
@@ -16,7 +16,8 @@
 
 .skills__card-image {
     height: 10vh;
-    width: 5vw;
+    width: 7vw;
+	border-radius: 0;
 }
 
 .card__container-top {
