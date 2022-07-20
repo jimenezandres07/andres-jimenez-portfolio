@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 1024px) {
 	.skills__container {
-		flex-direction: column;
+		flex-direction: row;
 		height: 87%;
 	}
 
@@ -54,5 +54,20 @@
 /* MEDIA QUERIES (SMALL) */
 
 @media screen and (max-width: 600px) {
-	
+	#skills {
+		padding-top: 30rem;
+		padding-bottom: 50rem;
+	}
+
+	.skills__container {
+		flex-direction: row;
+		gap: 1rem;
+	}
+
+	.card__container-top{
+		width: 25%;
+	}
+	.skills__card {
+		width: 100%;
+	}
 }
