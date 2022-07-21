@@ -45,11 +45,14 @@
 	.skills__container {
 		flex-direction: row;
 		height: 87%;
-	}
-
-	.skills__card {
 		
 	}
+
+	#skills {
+		margin-top: 30rem;
+	}
+
+
 }
 /* MEDIA QUERIES (SMALL) */
 
@@ -66,6 +69,25 @@
 
 	.card__container-top{
 		width: 25%;
+	}
+	.skills__card {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	#skills {
+		padding-top: 10rem;
+		padding-bottom: 70rem;
+	}
+
+	.skills__container {
+		flex-direction: row;
+		gap: 0.5rem;
+	}
+
+	.card__container-top{
+		width: 30%;
 	}
 	.skills__card {
 		width: 100%;
