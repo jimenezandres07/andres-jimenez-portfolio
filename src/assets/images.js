@@ -59,7 +59,7 @@ export const projectsArray = [
 			"Página de perros dónde se pueden encontrar diferentes razas de perros, aplicar diferentes filtros para facilitar la búsqueda y hasta agregar una raza",
 		projectGithubLink:
 			"https://github.com/jimenezandres07/PI-Dogs/tree/main/PI-Dogs-main",
-		projectDeployLink: "#",
+		projectDeployLink: "https://dogs-frontend-fawn.vercel.app/",
 	},
 	{
 		projectName: "Sportbase",
